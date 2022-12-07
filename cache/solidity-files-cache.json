@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\snowl\\Documents\\GitHub\\nft-smart-contract\\contracts\\NFT.sol": {
-      "lastModificationDate": 1670040290686,
-      "contentHash": "c332c39ec6386fe8373307a2e4268c6e",
+      "lastModificationDate": 1670425905350,
+      "contentHash": "6b350b9f24045331448157f44a0038d4",
       "sourceName": "contracts/NFT.sol",
       "solcConfig": {
         "version": "0.8.17",

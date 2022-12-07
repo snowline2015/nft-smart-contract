@@ -4,10 +4,12 @@ require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
 require("./scripts/deploy.js");
 require("./scripts/mint.js");
+require("@nomiclabs/hardhat-etherscan");
 
 const {
   ALCHEMY_KEY,
-  METAMASK_KEY
+  METAMASK_KEY,
+  ETHERSCAN_API_KEY
 } = process.env;
 
 module.exports = {
@@ -24,5 +26,8 @@ module.exports = {
       url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_KEY}`,
       accounts: [`0x${METAMASK_KEY}`]
     },
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_API_KEY,
   },
 };
